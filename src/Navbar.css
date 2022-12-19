@@ -24,3 +24,17 @@ color: black;
 .bg-bw{
     background: linear-gradient(to bottom,#000 80%,#fff 20%);
 }
+.nav-left img{
+    margin: 15px 7%;
+    width: 100px;
+}
+.nav-left-container{
+    display: flex;
+    align-items: center;
+}
+.nav-left-container pre{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: auto;
+    font-size: .6rem;
+}

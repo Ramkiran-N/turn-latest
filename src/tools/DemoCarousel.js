@@ -12,7 +12,10 @@ class DemoCarousel extends Component {
             interval={2500}
             showDots={false}
             infiniteLoop={true}
-            showStatus={false}>
+            showStatus={false}
+            showIndicators={false}
+            showThumbs={false}
+            swipeable={true}>
                 <div>
                     <img src="1.jpg" alt='turn'/>
                     {/* <p className="legend">Legend 1</p> */}

@@ -11,7 +11,9 @@ import Home from './pages/Home';
         return (
                 <Router>
                     <div className="row nav-div">
-                        <div className='nav-left bg-dark text-white'></div>
+                        <div className='nav-left bg-dark text-white'>
+                            <img src="logo/turn-branding-palakkad-logo.png" alt="" srcset="" />
+                        </div>
                         <div className='nav-right'>
                          
                             <Link to="/" href="#"></Link>
@@ -45,15 +47,17 @@ import Home from './pages/Home';
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-1 bg-bw h-100vh'>
-
+                        <div className='col-random-1 bg-bw nav-left-container'>
+                            <pre className='text-white '>FACEBOOK   |   INSTAGRAM</pre>
                         </div>
-                        <div className='col-10'>
+                        <div className='col-random-10'>
                         <Routes>
                             <Route path='/' element={<Home/>}/>
                         </Routes>
                         </div>
-                        
+                        <div className='col-random-1'>
+
+                        </div>
                     </div>
                 </Router>
             

@@ -2,7 +2,7 @@ html,body{
   margin: 0;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 li{
   list-style: none;
@@ -12,4 +12,22 @@ a{
 }
 .h-100vh{
   height: 100vh;
+}
+.max-width-100{
+  max-width: 66px !important;
+}
+.col-random-1{
+  flex: 0 0 auto;
+  width: 8.33333333% !important;
+  max-width: 75px !important;
+}
+.col-random-10{
+  flex: 0 0 auto;
+  width: 83.33333333% !important;
+}
+@media (min-width:916px){
+  .col-random-10{
+    flex: 0 0 auto;
+    width: calc(100% - 150px) !important;
+  }
 }
