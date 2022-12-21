@@ -11,23 +11,39 @@ a{
   text-decoration: none;
 }
 .h-100vh{
-  height: 100vh;
+  height: calc(100vh - 70px);
+  /* overflow: hidden; */
 }
 .max-width-100{
   max-width: 66px !important;
 }
-.col-random-1{
-  flex: 0 0 auto;
-  width: 8.33333333% !important;
-  max-width: 75px !important;
+
+@media (min-width:400px){
+  .col-random-1{
+    flex: 0 0 auto;
+    width: 8.33333333% !important;
+    max-width: 75px !important;
+  }
+  .col-random-10{
+    flex: 0 0 auto;
+    width: 83.33333333% !important;
+  }
 }
-.col-random-10{
-  flex: 0 0 auto;
-  width: 83.33333333% !important;
-}
+
 @media (min-width:916px){
   .col-random-10{
     flex: 0 0 auto;
     width: calc(100% - 150px) !important;
+  }
+}
+@media (max-width:400px){
+  .col-random-1{
+    flex: 0 0 auto;
+    width: 40px !important;
+    min-width: 40px !important
+  }
+  .col-random-10{
+    flex: 0 0 auto;
+    width: calc(100% - 80px) !important;
   }
 }

@@ -1,0 +1,36 @@
+.image-container{
+    position: relative;
+    /* background-image: url('../../public/banner/turn-about.jpg'); */
+    height: calc(100vh - 75px);
+    object-fit: cover;
+}
+.image-container img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: calc(100vh - 70px);
+}
+.about pre{
+    position: relative;
+    color: white;
+    z-index: 1;
+    letter-spacing: 1px;
+}
+@media(max-width:767px){
+    .about pre{
+        display: none;
+    }
+    .about p{
+        position: relative;
+        color: white;
+        z-index: 1;
+        letter-spacing: 1px;
+        font-size: .6rem;
+        padding: .5rem;
+    }
+}
+@media(min-width:768px){
+    .about p{
+      display: none;
+    }
+}

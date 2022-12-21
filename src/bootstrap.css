@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: trajan;
+    src: url('../public/fonts/Trajan\ Pro\ Regular.ttf');
+  }
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -51,8 +54,8 @@
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 33, 37, 41;
     --bs-body-bg-rgb: 255, 255, 255;
-    --bs-font-sans-serif: 'Poppins', sans-serif;
-    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-font-sans-serif: 'trajan', sans-serif;
+    --bs-font-monospace: 'trajan',SFMono-Regular, Menlo, Monaco, Consolas,"Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: .8rem;
@@ -290,7 +293,7 @@ pre {
     margin-top: 0;
     margin-bottom: 1rem;
     overflow: auto;
-    font-size: .875em
+    font-size: .6rem
 }
 
 pre code {
@@ -4206,7 +4209,7 @@ fieldset:disabled .btn {
 .card-body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: #ffc60b;
+    color: #000000;
 }
 
 .card-title {
@@ -7680,9 +7683,6 @@ fieldset:disabled .btn {
 
 .h-100 {
     height: 100% !important
-}
-.h-100vh{
-    height: 100vh;
 }
 .h-auto {
     height: auto !important
