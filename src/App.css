@@ -46,4 +46,7 @@ a{
     flex: 0 0 auto;
     width: calc(100% - 80px) !important;
   }
+  .row {
+    --bs-gutter-x: 0 !important;
+  }
 }

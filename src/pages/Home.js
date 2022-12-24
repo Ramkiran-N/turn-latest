@@ -3,7 +3,7 @@ import './Home.css';
 import { motion } from 'framer-motion';
 function Home(){
     return(
-        <motion.div initial={{width:0,position:'absolute',zIndex:1, transition:{duration:1}}} animate={{width:"100%",position:'relative',zIndex:1}} exit={{x: window.innerWidth,transition:{duration:0.5},position:'absolute',zIndex:0}}>
+        <motion.div initial={{width:0, transition:{duration:0.9}}} animate={{width:"100%"}} exit={{x: window.innerWidth, transition:{duration:0.9},height:0,overflow:"hidden",zIndex:10}}>
                 <DemoCarousel/>
         </motion.div>
       

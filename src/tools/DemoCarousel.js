@@ -17,11 +17,11 @@ class DemoCarousel extends Component {
             showThumbs={false}
             swipeable={true}>
                 <div>
-                    <img src="1.jpg" alt='turn'/>
+                    <img src="banner/d-nine.jpg" alt='turn'/>
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
-                    <img src="1.jpg" />
+                    <img src="banner/dress-world.jpg" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>

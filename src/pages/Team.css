@@ -1,0 +1,30 @@
+.team{
+    min-height: calc(100vh - 70px);
+}
+.team .card-img-top {
+    width: 60%;
+}
+.team .card{
+    box-shadow: none;
+    width: 20vw;
+}
+.team .card h6{
+    font-size: .8rem
+}
+@media (max-width:920px){
+    .team .card{
+        width: 200px;
+    }
+}
+@media (max-width:481px){
+    .team .card{
+        width: 50%;
+        min-width: 120px;
+    }
+    .team .container>.mt-5{
+        margin-top: .5rem !important;
+    }
+    /* .team .container>.card>.mt-3{
+        margin-top: .5rem !important;
+    } */
+}

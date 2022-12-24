@@ -3,10 +3,10 @@ import './About.css';
 import { motion } from 'framer-motion';
 function About(){
     return(
-        <motion.div className='about' initial={{width:0,position:'absolute',height:0,overflow:"auto",zIndex:1, transition:{duration:1}}} animate={{width:"100%",position:'relative',zIndex:1,overflow:"auto",height:"100%"}} exit={{x: window.innerWidth, transition:{duration:0.5},position:'absolute',zIndex:0}}>
+        <motion.div className='about' initial={{width:0, transition:{duration:0.9}}} animate={{width:"100%"}} exit={{x: window.innerWidth, transition:{duration:0.9},height:0,overflow:"hidden",zIndex:10}}>
                 <div className="inner-container">
                     <div className="image-container d-flex justify-content-center align-items-center text-center">
-                        <img src="banner/turn-about.jpg" alt="" srcset="" />
+                        {/* <img src="banner/turn-about.jpg" alt="" srcset="" /> */}
                         <div>
                             <pre>A BRAND IS MORE THAN A COLLECTION OF PRODUCTS AND ADS.</pre>
                             <pre>IT'S AN EXPERIENCE THAT ENJOYED FOR IT'S UTILITY AND ELEGANCE- AT LEAST.</pre>
