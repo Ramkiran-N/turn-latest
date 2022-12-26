@@ -43,3 +43,7 @@
     background: black;
     font-size: .68rem;
 }
+.clients img{
+    width: 70px;
+    filter: grayscale(1);
+}

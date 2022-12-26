@@ -88,7 +88,7 @@ import AnimatedRoutes from './tools/AnimatedRoutes';
                         </motion.div>
                     <div className='row '>
                         <div className='col-random-1 bg-bw nav-left-container h-100vh'>
-                            <pre className='text-white '>FACEBOOK   |   INSTAGRAM</pre>
+                            <pre className='text-white '>FACEBOOK   |   INSTAGRAM  |  WHATSAPP</pre>
                         </div>
                        
                         <div className='col-random-10 h-100vh'>
